@@ -19,21 +19,15 @@ public class EnemyAnimator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-            if ()
-            {
-                isRun = true;
-                isWalk = isIdle = false;
-            }
-            else
-            {
-                isWalk = true;
-                isRun = isIdle = false;
-            }
+        if (true)
+        {
+            isRun = true;
+            isWalk = isIdle = false;
         }
         else
         {
-            isWalk = isRun = false;
-            isIdle = true;
+            isWalk = true;
+            isRun = isIdle = false;
         }
 
         //set the bools to the state machine papameter bools
