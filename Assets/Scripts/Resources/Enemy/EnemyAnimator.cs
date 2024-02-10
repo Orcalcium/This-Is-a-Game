@@ -4,14 +4,14 @@ public class EnemyAnimator : MonoBehaviour
 {
 
     public Animator ani;
-    public Transform player, camStand;
+    public Transform enemyPrefab;
     public CharacterController chController;
     public bool isWalk = false, isRun, isArmed, isIdle;
     Vector3 walkDir;
     // Start is called before the first frame update
     void Start()
     {
-        isWalk = isRun = false;
+        isWalk =false; isRun = false;
 
         isIdle = true;
     }

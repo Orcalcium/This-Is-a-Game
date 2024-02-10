@@ -93,7 +93,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 321b61255c1ce3745b74a8aca431046c, type: 3}
       insertIndex: -1
       addedObject: {fileID: -1538038817970755135}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 321b61255c1ce3745b74a8aca431046c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1296105447819988682}
   m_SourcePrefab: {fileID: 100100000, guid: 321b61255c1ce3745b74a8aca431046c, type: 3}
+--- !u!4 &288792493855203134 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 321b61255c1ce3745b74a8aca431046c, type: 3}
+  m_PrefabInstance: {fileID: 255375058606012629}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1101745365653751172 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 321b61255c1ce3745b74a8aca431046c, type: 3}
@@ -144,17 +152,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc8ce4da24c7e8b48962273c417a44ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ani: {fileID: 0}
-  player: {fileID: 0}
-  camStand: {fileID: 0}
-  chController: {fileID: 0}
+  ani: {fileID: 6172349615536148074}
+  enemyPrefab: {fileID: 288792493855203134}
+  chController: {fileID: 1296105447819988682}
   isWalk: 0
   isRun: 0
   isArmed: 0
   isIdle: 0
-  isAim: 0
-  mouseRightPressed: 0
-  aimW: 0
-  aimA: 0
-  aimS: 0
-  aimD: 0
+--- !u!143 &1296105447819988682
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101745365653751172}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 1, z: 0}
