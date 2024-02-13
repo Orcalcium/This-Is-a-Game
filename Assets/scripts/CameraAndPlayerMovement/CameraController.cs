@@ -12,7 +12,7 @@ public class CameraController : MonoBehaviour
     Quaternion camTargetAngle, TargetAngle;
     private Vector3 mousePos,nextMousePos;
     [SerializeField]
-    float camDiameter,rotateSenstivity=2f,scrollSenstivity=3f,defaultCamDiameter=10f, camLerpTargetValue ;
+    float camDiameter,rotateSenstivity=6f,scrollSenstivity=3f,defaultCamDiameter=10f, camLerpTargetValue ;
     
     void Start()
     {
