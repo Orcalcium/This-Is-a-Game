@@ -974,6 +974,8 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8230830382333951920, guid: 47119b78c9e855b4b985079df614866d, type: 3}
   fireDamage: 10
   fireRange: 40
+  maxSpread: 5
+  maxSpreadTime: 0.2
   characterAnimator: {fileID: 6146967981006625853}
 --- !u!1 &3311192608696692385 stripped
 GameObject:

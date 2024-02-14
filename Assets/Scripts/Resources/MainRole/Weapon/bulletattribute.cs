@@ -19,7 +19,7 @@ public class bulletattribute : MonoBehaviour
     {
         rb = this.gameObject.GetComponent<Rigidbody>();
         rb.useGravity = false;
-        rb.velocity = transform.right * bulletSpeed;
+        rb.velocity = transform.forward * bulletSpeed;
         bulletLifePeriod = range / bulletSpeed;
         bulletDestroyTime = Time.time + bulletLifePeriod;
     }

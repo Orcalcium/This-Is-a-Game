@@ -48,6 +48,7 @@ MonoBehaviour:
   player: {fileID: 4792980907617558857}
   cam: {fileID: 4604356482819521265}
   camStand: {fileID: 2783463242395205051}
+  playerAnimator: {fileID: 3562933331906267503}
   camDiameter: -2
   rotateSenstivity: 2
   scrollSenstivity: 3
@@ -120,11 +121,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3163260298563343008, guid: aa2fdbb7ef79eec42836b0d450a671c0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8433915
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3163260298563343008, guid: aa2fdbb7ef79eec42836b0d450a671c0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.53729963
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3163260298563343008, guid: aa2fdbb7ef79eec42836b0d450a671c0, type: 3}
       propertyPath: m_LocalRotation.y
@@ -136,7 +137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3163260298563343008, guid: aa2fdbb7ef79eec42836b0d450a671c0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 65
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3163260298563343008, guid: aa2fdbb7ef79eec42836b0d450a671c0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -239,6 +240,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26bd0912238f82f42bcdf688798af6ad, type: 3}
+--- !u!95 &3562933331906267503 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6146967981006625853, guid: 26bd0912238f82f42bcdf688798af6ad, type: 3}
+  m_PrefabInstance: {fileID: 7222786662038082898}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4792980907617558857 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2790094931521418267, guid: 26bd0912238f82f42bcdf688798af6ad, type: 3}
